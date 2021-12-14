@@ -20,12 +20,12 @@ export default function FooterSmall(props) {
                   href="https://www.creative-tim.com?ref=nnjs-footer-small"
                   className="text-white hover:text-blueGray-300 text-sm font-semibold py-1"
                 >
-                  Creative Tim
+                  Taxan Info
                 </a>
               </div>
             </div>
             <div className="w-full md:w-8/12 px-4">
-              <ul className="flex flex-wrap list-none md:justify-end  justify-center">
+              {/* <ul className="flex flex-wrap list-none md:justify-end  justify-center">
                 <li>
                   <a
                     href="https://www.creative-tim.com?ref=nnjs-footer-small"
@@ -58,7 +58,7 @@ export default function FooterSmall(props) {
                     MIT License
                   </a>
                 </li>
-              </ul>
+              </ul> */}
             </div>
           </div>
         </div>

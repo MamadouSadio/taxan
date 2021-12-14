@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+
 // components
 
 import IndexDropdown from "components/Dropdowns/IndexDropdown.js";
@@ -95,6 +96,20 @@ export default function Navbar(props) {
                 </a>
                   
               </li>
+              <Link href="/auth/login">
+              <li className="flex items-center">
+                
+                <a href="#">
+                  <button
+                  className="bg-blueGray-700 text-white active:bg-blueGray-600 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
+                  type="button"
+                >
+                  <i className="fas fa-user"></i> Connexion
+                </button>
+                </a>                 
+              </li>
+              </Link>
+
             </ul>
           </div>
         </div>

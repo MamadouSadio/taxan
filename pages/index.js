@@ -21,7 +21,7 @@ export default function Index() {
               
               <p className="mt-4 text-lg leading-relaxed text-blueGray-500 text-justify">
                 Taxan Info est une plateforme web qui permet aux organisations communautaires de base une gestion informatisée de leurs organisations mais surtout un suivi de leurs membres dans leurs activités et leurs conditions de vie. <br/>
-                Il est conçu pour la collecte de l’information à la base, son traitement, son exploitation en interne par des requêtes imprimées  et sa diffusion sous forme de données statistiques vers les partenaires. Il s’agit d’une  application web, accessible soit par son portail grâce à un login et un mot de passe soit par installation en local chez le client.<br/> Une unité de coordination de programme ou une structure faitière peut à partir du portail disposer d’une espace privé où elle regroupe ses utilisateurs ou agents accrédités situés dans divers points de collecte de données.
+                Il est conçu pour la collecte de l’information à la base, son traitement, son exploitation en interne par des requêtes imprimées  et sa diffusion sous forme de données statistiques vers les partenaires. Il s’agit d’une  application web, accessible soit par son portail grâce à un login et un mot de passe soit par installation en local chez le client.<br/> Une unité de coordination de programme ou une structure faitière peut à partir du portail disposer d’un espace privé où elle regroupe ses utilisateurs ou agents accrédités situés dans divers points de collecte de données.
               </p>
                 <br className="my-6 border-blueGray-300" />
                 <br className="my-6 border-blueGray-300" />
@@ -50,8 +50,8 @@ export default function Index() {
           </div>
         </div>
         <img
-          className="absolute top-0 b-auto right-0 pt-46 sm:w-6/12 -mt-48 sm:mt-0 w-10/12 max-h-600-px"
-          src="/img/pattern_nextjs.png"
+          className="absolute top-0 b-auto right-0 pt-46 sm:w-6/12 -mt-48 sm:mt-0 w-12/12 max-h-600-px"
+          src="/img/taxan/femmes_mali_travail.png"
           alt="..."
         />
         <br className="my-6 border-blueGray-300" />
@@ -175,11 +175,56 @@ export default function Index() {
         </div>
 
         <div className="container mx-auto overflow-hidden pb-20">
-
-          <div className="flex flex-wrap items-center pt-32">
-            <div className="w-full md:w-6/12 px-4 mr-auto ml-auto mt-32">
+        <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-10">
+              <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
+                <i className="fas fa-drafting-compass text-xl"></i>
+              </div>
+              <h3 className="text-3xl mb-2 font-semibold leading-normal">
+                Une dizaine de modules
+              </h3>
+              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
+                Tous axés sur la sécurité alimentaire et la santé familiale.
+              </p>
+              <div className="block pb-6">
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                  Paramétrage du souscripteur
+                </span>
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                  Foncier:
+                </span>
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                  Agriculture 
+                </span>
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                  Commercialisation 
+                </span>
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                  Matériel Agricole 
+                </span>
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                  Elevage
+                </span>
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                  Les Equipements Collectifs
+                </span>
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                  Santé Familiale
+                </span>
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                  25 Novembre
+                </span>
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                  Transformation & Commercialisation des P.A
+                </span>
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                  Comptabilité
+                </span>
+              </div>
+            </div>
+          <div className="flex flex-wrap items-center pt-10">
+            <div className="w-full md:w-8/12 px-4 mr-auto ml-auto mt-10">
               <div className="justify-center flex flex-wrap relative">
-                <div className="my-4 w-full lg:w-6/12 px-4">
+                <div className="my-8 w-full lg:w-6/12 px-4">
 
                     <div className="bg-red-600 shadow-lg rounded-lg text-center p-8">
                       <img
@@ -381,60 +426,7 @@ export default function Index() {
               </div>
             </div>
 
-            <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-48">
-              <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
-                <i className="fas fa-drafting-compass text-xl"></i>
-              </div>
-              <h3 className="text-3xl mb-2 font-semibold leading-normal">
-                Une dizaine de modules
-              </h3>
-              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-                Tous axés sur la sécurité alimentaire et la santé familiale.
-              </p>
-              <div className="block pb-6">
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Paramétrage du souscripteur
-                </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Foncier:
-                </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Agriculture 
-                </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Commercialisation 
-                </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Matériel Agricole 
-                </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Elevage
-                </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Les Equipements Collectifs
-                </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Santé Familiale
-                </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  25 Novembre
-                </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Transformation & Commercialisation des P.A
-                </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Comptabilité
-                </span>
-              </div>
-              {/* <a
-                href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/alerts/notus?ref=nnjs-index"
-                target="_blank"
-                className="font-bold text-blueGray-700 hover:text-blueGray-500 ease-linear transition-all duration-150"
-              >
-                View all{" "}
-                <i className="fa fa-angle-double-right ml-1 leading-relaxed"></i>
-              </a> */}
-            </div>
+
           </div>
         </div>
 
@@ -479,7 +471,7 @@ export default function Index() {
                       <img
                         alt="..."
                         className="align-middle border-none max-w-full h-auto rounded-lg"
-                        src="/img/taxan/org.jpg"
+                        src="/img/taxan/logo_fafssenegal.jpg"
                       />
                     </div>
                   </Link>
