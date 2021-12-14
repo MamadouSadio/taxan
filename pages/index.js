@@ -17,10 +17,12 @@ export default function Index() {
               Taxan Info  
               </h2>
               <small>
-                 Développée par 
-                <a href="#">
-                  <strong class="Primary"> Sahel Focus Management</strong>
-                </a>
+                 Développée par
+                 <Link href="building"> 
+                  <a href="#">
+                    <strong class="Primary"> Sahel Focus Management</strong>
+                  </a>
+                </Link>
               </small>
               
               
@@ -459,7 +461,7 @@ export default function Index() {
                   <h5 className="text-xl font-semibold pb-4 text-center">
                     Nos partenaires
                   </h5>
-                  <Link href="/auth/login">
+                  <Link href="/"> 
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
                         alt="..."
@@ -474,7 +476,7 @@ export default function Index() {
                   <h5 className="text-xl font-semibold pb-4 text-center">
                     Nos partenaires
                   </h5>
-                  <Link href="/profile">
+                  <Link href="building"> 
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
                         alt="..."
@@ -489,7 +491,7 @@ export default function Index() {
                   <h5 className="text-xl font-semibold pb-4 text-center">
                     Nos partenaires
                   </h5>
-                  <Link href="/landing">
+                  <Link href="/"> 
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
                         alt="..."
