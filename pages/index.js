@@ -29,7 +29,7 @@ export default function Index() {
                 <br className="my-6 border-blueGray-300" />
                 <br className="my-6 border-blueGray-300" />
                 <br className="my-6 border-blueGray-300" />
-              <div className="mt-12">
+              {/* <div className="mt-12">
                  <a
                   href="#"
                   target="_blank"
@@ -45,12 +45,12 @@ export default function Index() {
                 >
                   Formulaire d'inscription
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
         <img
-          className="absolute top-0 b-auto right-0 pt-16 sm:w-6/12 -mt-48 sm:mt-0 w-10/12 max-h-860-px"
+          className="absolute top-0 b-auto right-0 pt-46 sm:w-6/12 -mt-48 sm:mt-0 w-10/12 max-h-600-px"
           src="/img/pattern_nextjs.png"
           alt="..."
         />
@@ -396,7 +396,7 @@ export default function Index() {
                     <div className="bg-emerald-500 shadow-lg rounded-lg text-center p-8 mt-8">
                       <img
                         alt="..."
-                        className="shadow-md rounded-full max-w-full w-24 mx-auto p-2 bg-white"
+                        className="shadow-md rounded-full max-w-full w-32 mx-auto p-2 bg-white"
                         src="/img/taxan/comptabilité.jpg"
                       />
                       <p className="text-lg text-white mt-4 font-semibold">
