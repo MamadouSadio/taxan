@@ -180,10 +180,7 @@ export default function Index() {
             <div className="w-full md:w-6/12 px-4 mr-auto ml-auto mt-32">
               <div className="justify-center flex flex-wrap relative">
                 <div className="my-4 w-full lg:w-6/12 px-4">
-                  <a
-                    href="#"
-                    target="_blank"
-                  >
+
                     <div className="bg-red-600 shadow-lg rounded-lg text-center p-8">
                       <img
                         alt="..."
@@ -200,11 +197,8 @@ export default function Index() {
                         </em>
                       </p>
                     </div>
-                  </a>
-                  <a
-                    href="#"
-                    target="_blank"
-                  >
+
+   
                     <div className="bg-lightBlue-500 shadow-lg rounded-lg text-center p-8 mt-8">
                       <img
                         alt="..."
@@ -221,11 +215,8 @@ export default function Index() {
                         </em>
                       </p>
                     </div>
-                  </a>
-                  <a
-                    href="#"
-                    target="_blank"
-                  >
+                  
+   
                     <div className="bg-blueGray-700 shadow-lg rounded-lg text-center p-8 mt-8">
                       <img
                         alt="..."
@@ -242,11 +233,8 @@ export default function Index() {
                         </em>
                       </p>
                     </div>
-                  </a>
-                  <a
-                    href="#"
-                    target="_blank"
-                  >
+                  
+   
                     <div className="bg-red-600 shadow-lg rounded-lg text-center p-8 mt-8">
                       <img
                         alt="..."
@@ -262,11 +250,8 @@ export default function Index() {
                         </em>
                       </p>
                     </div>
-                  </a>
-                  <a
-                    href="#"
-                    target="_blank"
-                  >
+                  
+   
                     <div className="bg-lightBlue-500 shadow-lg rounded-lg text-center p-8 mt-8">
                       <img
                         alt="..."
@@ -284,13 +269,10 @@ export default function Index() {
                         </em>
                       </p>
                     </div>
-                  </a>
+                  
                 </div>
                 <div className="my-4 w-full lg:w-6/12 px-4 lg:mt-16">
-                  <a
-                    href="#"
-                    target="_blank"
-                  >
+   
                     <div className="bg-yellow-500 shadow-lg rounded-lg text-center p-8">
                       <img
                         alt="..."
@@ -306,11 +288,8 @@ export default function Index() {
                         </em>
                       </p>
                     </div>
-                  </a>
-                  <a
-                    href="#"
-                    target="_blank"
-                  >
+                  
+   
                     <div className="bg-red-700 shadow-lg rounded-lg text-center p-8 mt-8">
                       <img
                         alt="..."
@@ -326,11 +305,8 @@ export default function Index() {
                         </em>
                       </p>
                     </div>
-                  </a>
-                  <a
-                    href="#"
-                    target="_blank"
-                  >
+                  
+   
                     <div className="bg-emerald-500 shadow-lg rounded-lg text-center p-8 mt-8">
                       <img
                         alt="..."
@@ -348,11 +324,8 @@ export default function Index() {
                         </em>
                       </p>
                     </div>
-                  </a>
-                  <a
-                    href="#"
-                    target="_blank"
-                  >
+                  
+   
                     <div className="bg-yellow-500 shadow-lg rounded-lg text-center p-8 mt-8">
                       <img
                         alt="..."
@@ -368,11 +341,8 @@ export default function Index() {
                         </em>
                       </p>
                     </div>
-                  </a>
-                  <a
-                    href="#"
-                    target="_blank"
-                  >
+                  
+   
                     <div className="bg-red-700 shadow-lg rounded-lg text-center p-8 mt-8">
                       <img
                         alt="..."
@@ -388,11 +358,8 @@ export default function Index() {
                         </em>
                       </p>
                     </div>
-                  </a>
-                  <a
-                    href="#"
-                    target="_blank"
-                  >
+                  
+   
                     <div className="bg-emerald-500 shadow-lg rounded-lg text-center p-8 mt-8">
                       <img
                         alt="..."
@@ -409,7 +376,7 @@ export default function Index() {
                         </em>
                       </p>
                     </div>
-                  </a>
+                  
                 </div>
               </div>
             </div>
