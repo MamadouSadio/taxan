@@ -16,6 +16,14 @@ export default function Index() {
               <h2 className="font-semibold text-4xl text-blueGray-600">
               Taxan Info  
               </h2>
+              <small>
+                 Développée par 
+                <a href="#">
+                  <strong class="Primary"> Sahel Focus Management</strong>
+                </a>
+              </small>
+              
+              
               <br className="my-6 border-blueGray-300" />
 
               
@@ -559,20 +567,21 @@ export default function Index() {
                   dispositions très particulières, dont cette sponsorisation.
               </p>
               <div className="sm:block flex flex-col mt-10">
-                <a
-                  href="#"
+                <Link href="./auth/login">
+                 <a 
                   target="_blank"
                   className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-2 bg-blueGray-400 active:bg-blueGray-500 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                 >
                   Accéder à Taxan Info
-                </a>
+                  </a>
+                </Link>
                 <a
                   href="https://download1493.mediafire.com/sy2o22xjxcpg/y3gryvei5o5n6wp/Formulaires.zip
                   "
                   target="_blank"
                   className="github-star sm:ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg"
                 >
-                  <i className="fab fa-github text-lg mr-1"></i>
+                  <i className="fas fa-arrow-alt-circle-down text-lg mr-1"></i>
                   <span>Formulaire d'inscription
                   </span>
                 </a>
