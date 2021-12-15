@@ -547,20 +547,22 @@ export default function Index() {
                 <br/>
 
               <h3 className="font-semibold text-3xl">
-                Mot du Directeur Général
+              Le Mot du Directeur Général
               </h3>
               <p className="text-black-500 text-lg leading-relaxed mt-4 mb-4 text-justify">
-              De nos jours, il est inconcevable d’envisager une <strong>Emergence</strong> en dehors du concept de <strong>la bonne gouvernance</strong>. Il est aussi évident que la connaissance et la disponibilité de l’information sont à la base, à tous les niveaux, d’une administration  saine, vecteur d’un développement durable. C’est dans cette dynamique que le Cabinet d’étude Sahel Focus Management a développé le système d’information <strong>Taxan Info.</strong>.<br/>
+              De nos jours, il est inconcevable d’envisager une <strong>Emergence</strong> en dehors du concept de <strong>la bonne gouvernance</strong>. Il est aussi évident que la connaissance et la disponibilité de l’information sont à la base, à tous les niveaux, d’une administration  saine, vecteur d’un développement durable. C’est dans cette dynamique que le Cabinet d’étude Sahel Focus Management a développé le système d’information <strong>Taxan Info.</strong><br/>
 
-              Les dix modules qui le composent lui confèrent une transversalité absolue, et un parfait ancrage dans les <strong>Objectifs du Développement Durables (ODD)</strong>. <br/>
+              Les dix modules qui le composent lui confèrent une transversalité absolue, et un parfait ancrage dans les <strong>Objectifs du Développement Durable (ODD)</strong>. <br/>
               
-              Axé sur <strong>la Sécurité Alimentaire, la Santé Familiale, la Lutte contre la Pauvreté et l’Effet de Serre</strong>, Taxan Info est ainsi destiné <strong>aux organisations Communautaires de base(OCB)</strong>, particulièrement les organisations de producteurs et les  groupements de femmes, chevilles ouvrières de développement durable. <br/>
+              Axé sur <strong>la Sécurité Alimentaire, la Santé Familiale, la Lutte contre la Pauvreté</strong>, Taxan Info est ainsi destiné <strong>aux organisations Communautaires de base(OCB)</strong>, particulièrement les organisations de producteurs et les  groupements de femmes, chevilles ouvrières de développement durable. <br/>
 
-              <em>Qui détient l’information détient le pouvoir</em>. Il est évident que Taxan Info rentre dans le cadre <strong>du renforcement de capacité</strong> des acteurs à la base. Cet outil aidera ces derniers à mieux assoir une gestion de l’information et des ressources mises à leur disposition, de manière  plus efficiente et selon les normes édictées par l’Etat et les  partenaires techniques et financiers. <br/>
+              <em><strong>Qui détient l’information détient le pouvoir</strong></em>. Il est évident que Taxan Info rentre dans le cadre <strong>du renforcement de capacité</strong> des acteurs à la base. Cet outil aidera ces derniers à mieux asseoir une gestion de l’information et des ressources mises à leur disposition, de manière  plus efficiente et selon les normes édictées par l’Etat et les  partenaires techniques et financiers. <br/>
 
               Caractérisées par  leur dynamisme, leur rôle  de levier du développement, mais surtout par la faiblesse de leurs moyens, ces OCB ne pourraient  accéder au portail Taxan Info qu’avec des dispositions très particulières, dont la <strong>sponsorisation</strong>.<br/>
 
-              Ainsi, nous invitons vivement les institutions étatiques et les partenaires techniques et financiers à accompagner la mise en service de la plateforme Taxan info, pour aider les OCB  à se transformer afin d’atteindre leurs objectifs en matière de développement.
+              Ainsi, nous invitons vivement les institutions étatiques et les partenaires techniques et financiers à accompagner la mise en service de la plateforme Taxan info, pour aider les OCB  à se transformer afin d’atteindre leurs objectifs en matière de développement.<br/>
+
+              Bienvenue et nous vous souhaitons une bonne ceuillette d'information sur notre portail
               </p>
               <div className="sm:block flex flex-col mt-10">
                 <Link href="./auth/login">
