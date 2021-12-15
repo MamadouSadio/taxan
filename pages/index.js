@@ -452,7 +452,7 @@ export default function Index() {
                   <h5 className="text-xl font-semibold pb-4 text-center">
                     Nos partenaires
                   </h5>
-                  <Link href="landing"> 
+                  <Link href="building"> 
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
                         alt="..."
@@ -465,7 +465,7 @@ export default function Index() {
 
                 <div className="w-full lg:w-4/12 px-4">
                   <h5 className="text-xl font-semibold pb-4 text-center">
-                    Nos partenaires
+                    Maître d'Œuvre
                   </h5>
                   <Link href="building"> 
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
@@ -482,7 +482,7 @@ export default function Index() {
                   <h5 className="text-xl font-semibold pb-4 text-center">
                     Nos partenaires
                   </h5>
-                  <Link href="profile"> 
+                  <Link href="building"> 
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
                         alt="..."
@@ -535,7 +535,7 @@ export default function Index() {
                       <img
                         alt="..."
                         src="/img/taxan/dg.jpg"
-                        className="shadow-xl rounded-full h-auto align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 max-w-200-px"
+                        className="shadow-xl rounded-full h-auto align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 max-w-150-px"
                       />
                     </div>
                   </div>
