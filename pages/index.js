@@ -285,7 +285,7 @@ export default function Index() {
                       <img
                         alt="..."
                         className="shadow-md rounded-full max-w-full w-24 mx-auto p-2 bg-white"
-                        src="/img/profile.jpg"
+                        src="/img/taxan/infrastructure.jpeg"
                       />
                       <p className="text-lg text-white mt-4 font-semibold">
                         Equipements Collectifs <br/>
