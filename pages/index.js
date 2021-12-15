@@ -29,7 +29,7 @@ export default function Index() {
               <br className="my-6 border-blueGray-300" />
 
               
-              <p className="mt-4 text-lg leading-relaxed text-blueGray-500 text-justify">
+              <p className="mt-4 text-lg leading-relaxed text-black-500">
                 Taxan Info est une plateforme web qui permet aux organisations communautaires de base une gestion informatisée de leurs organisations mais surtout un suivi de leurs membres dans leurs activités et leurs conditions de vie. <br/>
                 Il est conçu pour la collecte de l’information à la base, son traitement, son exploitation en interne par des requêtes imprimées  et sa diffusion sous forme de données statistiques vers les partenaires. Il s’agit d’une  application web, accessible soit par son portail grâce à un login et un mot de passe soit par installation en local chez le client.<br/> Une unité de coordination de programme ou une structure faitière peut à partir du portail disposer d’un espace privé où elle regroupe ses utilisateurs ou agents accrédités situés dans divers points de collecte de données.
               </p>
@@ -39,37 +39,28 @@ export default function Index() {
                 <br className="my-6 border-blueGray-300" />
                 <br className="my-6 border-blueGray-300" />
                 <br className="my-6 border-blueGray-300" />
-              {/* <div className="mt-12">
-                 <a
-                  href="#"
-                  target="_blank"
-                  className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-400 active:bg-blueGray-500 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
-                >
-                  Accéder à Taxan Info
-                </a> 
-                <a
-                  href="https://download1493.mediafire.com/sy2o22xjxcpg/y3gryvei5o5n6wp/Formulaires.zip
-                  "
-                  className="github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg"
-                  target="_blank"
-                >
-                  Formulaire d'inscription
-                </a>
-              </div> */}
+              
             </div>
           </div>
         </div>
         <img
-          className="absolute top-0 b-auto right-0 pt-46 sm:w-6/12 -mt-48 sm:mt-0 w-12/12 max-h-600-px"
-          src="/img/taxan/femmes_mali_travail.png"
+          type="button"
+          className="absolute top-0 b-auto right-0 pt-46 sm:w-6/12 -mt-48 sm:mt-0 w-12/12 max-h-400-px"
+          src="/img/taxan/Land-in-Zim.png"
           alt="..."
-        />
+          data-bs-toggle="popover" title="Taxan matt (collecte de bois): Votre portail Taxan Info (collecte de l’information)
+          doit son nom à cette activité qui est une tâches quotidienne des femmes ruraux.
+
+          “Contre la pauvreté et les violences basées sur le genre, pour le parité et l’automatisation,
+          les femmes rurales veulent relever le défi.”" data-bs-content=""/>
+
         <br className="my-6 border-blueGray-300" />
         <br className="my-6 border-blueGray-300" />
         <br className="my-6 border-blueGray-300" />
         <br className="my-6 border-blueGray-300" />
         <br className="my-6 border-blueGray-300" />
         <br className="my-6 border-blueGray-300" />
+                 
       </section>
 
       <section className="mt-48 md:mt-40 pb-40 relative bg-blueGray-100">
@@ -141,13 +132,13 @@ export default function Index() {
                   </div> */}
                   <div className="relative flex flex-col min-w-0">
                     <div className="px-4 py-5 flex-auto">
-                      <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
+                      <div className="text-black-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
                         <i className="fas fa-newspaper"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">
                         Un espace visiteurs
                       </h6>
-                      <p className="mb-4 text-blueGray-500 text-justify">
+                      <p className="mb-4 text-black-500 text-justify">
                         Un espace ouvert aux public et où sont affichées des statistiques générées par les données saisies.
                       </p>
                     </div>
@@ -156,11 +147,11 @@ export default function Index() {
                 <div className="w-full md:w-6/12 px-4">
                   <div className="relative flex flex-col min-w-0 mt-4">
                     <div className="px-4 py-5 flex-auto">
-                      <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
+                      <div className="text-black-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
                         <i className="fas fa-newspaper"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">Un espace utilisateurs </h6>
-                      <p className="mb-4 text-blueGray-500 text-justify">
+                      <p className="mb-4 text-black-500 text-justify">
                         qui affiche les modules et permet l’enregistrement des données et le tirage des requêtes.
                       </p>
                     </div>
@@ -186,47 +177,47 @@ export default function Index() {
 
         <div className="container mx-auto overflow-hidden pb-20">
         <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-10">
-              <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
+              <div className="text-black-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
                 <i className="fas fa-drafting-compass text-xl"></i>
               </div>
               <h3 className="text-3xl mb-2 font-semibold leading-normal">
                 Une dizaine de modules
               </h3>
-              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
+              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-black-600">
                 Tous axés sur la sécurité alimentaire et la santé familiale.
               </p>
               <div className="block pb-6">
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-black-500 bg-white uppercase last:mr-0 mr-2 mt-2">
                   Paramétrage du souscripteur
                 </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-black-500 bg-white uppercase last:mr-0 mr-2 mt-2">
                   Foncier:
                 </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-black-500 bg-white uppercase last:mr-0 mr-2 mt-2">
                   Agriculture 
                 </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-black-500 bg-white uppercase last:mr-0 mr-2 mt-2">
                   Commercialisation 
                 </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-black-500 bg-white uppercase last:mr-0 mr-2 mt-2">
                   Matériel Agricole 
                 </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-black-500 bg-white uppercase last:mr-0 mr-2 mt-2">
                   Elevage
                 </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-black-500 bg-white uppercase last:mr-0 mr-2 mt-2">
                   Les Equipements Collectifs
                 </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-black-500 bg-white uppercase last:mr-0 mr-2 mt-2">
                   Santé Familiale
                 </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-black-500 bg-white uppercase last:mr-0 mr-2 mt-2">
                   25 Novembre
                 </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-black-500 bg-white uppercase last:mr-0 mr-2 mt-2">
                   Transformation & Commercialisation des P.A
                 </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-black-500 bg-white uppercase last:mr-0 mr-2 mt-2">
                   Comptabilité
                 </span>
               </div>
@@ -240,7 +231,7 @@ export default function Index() {
                       <img
                         alt="..."
                         className="shadow-md rounded-full max-w-full w-24 mx-auto p-2 bg-white"
-                        src="/img/profile.jpg"
+                        src="/img/taxan/parametrage.jpg"
                       />
                       <p className="text-lg text-white mt-4 font-semibold">
                         Paramétrage du souscripteur <br/>
@@ -461,7 +452,7 @@ export default function Index() {
                   <h5 className="text-xl font-semibold pb-4 text-center">
                     Nos partenaires
                   </h5>
-                  <Link href="/"> 
+                  <Link href="landing"> 
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
                         alt="..."
@@ -491,7 +482,7 @@ export default function Index() {
                   <h5 className="text-xl font-semibold pb-4 text-center">
                     Nos partenaires
                   </h5>
-                  <Link href="/"> 
+                  <Link href="profile"> 
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
                         alt="..."
@@ -512,6 +503,7 @@ export default function Index() {
         <br className="my-6 border-blueGray-300" />
         <br className="my-6 border-blueGray-300" />
         <br className="my-6 border-blueGray-300" />
+        <br/>
 
       <section className="pb-16 bg-blueGray-200 relative pt-32">
         <div
@@ -537,36 +529,38 @@ export default function Index() {
         <div className="container mx-auto">
           <div className="flex flex-wrap justify-center bg-white shadow-xl rounded-lg -mt-64 py-16 px-12 relative z-10">
             <div className="w-full text-center lg:w-8/12">
-              {/* <p className="text-4xl text-center">
-                <span role="img" aria-label="love">
-                  😍
-                </span>
-              </p> */}
+              <div className="flex flex-wrap justify-center">
+                  <div className="w-full lg:w-3/12 px-4 lg:order-2 flex justify-center">
+                    <div className="relative">
+                      <img
+                        alt="..."
+                        src="/img/taxan/dg.jpg"
+                        className="shadow-xl rounded-full h-auto align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 max-w-200-px"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+
               <h3 className="font-semibold text-3xl">
                 Mot du Directeur Général
               </h3>
-              <p className="text-blueGray-500 text-lg leading-relaxed mt-4 mb-4">
-                  De nos jours, il est inconcevable d’envisager une Emergence en dehors du concept de la
-                  bonne gouvernance. Il est aussi évident que la connaissance et la disponibilité de
-                  l’information sont à la base, à tous les niveaux, d’une administration saine, vecteur d’un
-                  développement durable. C’est dans cette dynamique que le Cabinet d’étude Sahel Focus
-                  Management a développé le système d’information Taxan Info.<br/>
+              <p className="text-black-500 text-lg leading-relaxed mt-4 mb-4 text-justify">
+              De nos jours, il est inconcevable d’envisager une <strong>Emergence</strong> en dehors du concept de <strong>la bonne gouvernance</strong>. Il est aussi évident que la connaissance et la disponibilité de l’information sont à la base, à tous les niveaux, d’une administration  saine, vecteur d’un développement durable. C’est dans cette dynamique que le Cabinet d’étude Sahel Focus Management a développé le système d’information <strong>Taxan Info.</strong>.<br/>
 
-                  Les dix modules qui le composent lui confèrent une transversalité absolue, et un parfait
-                  ancrage dans les Objectifs du Développement Durables (ODD).
-                  Axé sur la Sécurité Alimentaire, la Santé Familiale, la Lutte contre la Pauvreté et
-                  l’Effet de Serre, Taxan Info est ainsi destiné aux organisations Communautaires de
-                  base(OCB), particulièrement les organisations de producteurs et les groupements de femmes,
-                  chevilles ouvrières de développement durable.<br/>
-                  Il est évident que Taxan Info rentre dans le cadre du renforcement de capacité des acteurs à la
-                  base. Cet outil aidera ces derniers à mieux assoir une gestion de l’information et des
-                  ressources mises à leur disposition de manière plus efficiente et selon les normes édictées par
-                  l’état et les partenaires techniques et financiers. Ceux-là même que nous invitons vivement à
-                  bien vouloir accompagner la mise en service du portail, en qualité de sponsors ; ce qui
-                  permettra de minimiser les frais d’accès pour les OCB.<br/>
-                  Caractérisées par leur dynamisme, leur rôle  de levier du développement, mais surtout par la
-                  faiblesse de leurs moyens, ces OCB ne pourraient accéder au portail Taxan Info qu’avec des
-                  dispositions très particulières, dont cette sponsorisation.
+              Les dix modules qui le composent lui confèrent une transversalité absolue, et un parfait ancrage dans les <strong>Objectifs du Développement Durables (ODD)</strong>. <br/>
+              
+              Axé sur <strong>la Sécurité Alimentaire, la Santé Familiale, la Lutte contre la Pauvreté et l’Effet de Serre</strong>, Taxan Info est ainsi destiné <strong>aux organisations Communautaires de base(OCB)</strong>, particulièrement les organisations de producteurs et les  groupements de femmes, chevilles ouvrières de développement durable. <br/>
+
+              <em>Qui détient l’information détient le pouvoir</em>. Il est évident que Taxan Info rentre dans le cadre <strong>du renforcement de capacité</strong> des acteurs à la base. Cet outil aidera ces derniers à mieux assoir une gestion de l’information et des ressources mises à leur disposition, de manière  plus efficiente et selon les normes édictées par l’Etat et les  partenaires techniques et financiers. <br/>
+
+              Caractérisées par  leur dynamisme, leur rôle  de levier du développement, mais surtout par la faiblesse de leurs moyens, ces OCB ne pourraient  accéder au portail Taxan Info qu’avec des dispositions très particulières, dont la <strong>sponsorisation</strong>.<br/>
+
+              Ainsi, nous invitons vivement les institutions étatiques et les partenaires techniques et financiers à accompagner la mise en service de la plateforme Taxan info, pour aider les OCB  à se transformer afin d’atteindre leurs objectifs en matière de développement.
               </p>
               <div className="sm:block flex flex-col mt-10">
                 <Link href="./auth/login">
