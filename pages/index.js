@@ -29,7 +29,7 @@ export default function Index() {
               <br className="my-6 border-blueGray-300" />
 
               
-              <p className="mt-4 text-lg leading-relaxed text-black-500">
+              <p className="mt-4 text-lg leading-relaxed text-black-500 text-justify">
                 Taxan Info est une plateforme web qui permet aux organisations communautaires de base une gestion informatisée de leurs organisations mais surtout un suivi de leurs membres dans leurs activités et leurs conditions de vie. <br/>
                 Il est conçu pour la collecte de l’information à la base, son traitement, son exploitation en interne par des requêtes imprimées  et sa diffusion sous forme de données statistiques vers les partenaires. Il s’agit d’une  application web, accessible soit par son portail grâce à un login et un mot de passe soit par installation en local chez le client.<br/> Une unité de coordination de programme ou une structure faitière peut à partir du portail disposer d’un espace privé où elle regroupe ses utilisateurs ou agents accrédités situés dans divers points de collecte de données.
               </p>
@@ -49,10 +49,7 @@ export default function Index() {
           src="/img/taxan/Land-in-Zim.png"
           alt="..."
           data-bs-toggle="popover" title="Taxan matt (collecte de bois): Votre portail Taxan Info (collecte de l’information)
-          doit son nom à cette activité qui est une tâches quotidienne des femmes ruraux.
-
-          “Contre la pauvreté et les violences basées sur le genre, pour le parité et l’automatisation,
-          les femmes rurales veulent relever le défi.”" data-bs-content=""/>
+          doit son nom à cette activité qui est une tâches quotidienne des femmes ruraux." data-bs-content=""/>
 
         <br className="my-6 border-blueGray-300" />
         <br className="my-6 border-blueGray-300" />

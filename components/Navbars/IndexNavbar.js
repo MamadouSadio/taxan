@@ -112,14 +112,30 @@ export default function Navbar(props) {
 
             </ul>
           </div>
+          <div className="text-center text-xl font-bold text-blueGray">
+            <p>“Contre la pauvreté et les violences basées sur le genre, pour le parité et        l’automatisation,
+            les femmes rurales veulent relever le défi.”</p>
+          </div>
+        <br className="my-6 border-blueGray-300" />
+        <br className="my-6 border-blueGray-300" />
         </div>
       </nav>
-      <hr className="my-6 border-blueGray-300" />
+      
+        <hr className="my-6 border-blueGray-300" />
         <br className="my-6 border-blueGray-300" />
         <br className="my-6 border-blueGray-300" />
         <br className="my-6 border-blueGray-300" />
         <br className="my-6 border-blueGray-300" />
         <br className="my-6 border-blueGray-300" />
+        <br className="my-6 border-blueGray-300" />
+        <br className="my-6 border-blueGray-300" />
+        <br className="my-6 border-blueGray-300" />
+        <br className="my-6 border-blueGray-300" />
+        <br className="my-6 border-blueGray-300" />
+        <br className="my-6 border-blueGray-300" />
+        <br className="my-6 border-blueGray-300" />
+        <br className="my-6 border-blueGray-300" />
+
         
 
     </>
