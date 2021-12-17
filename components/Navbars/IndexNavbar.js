@@ -91,7 +91,7 @@ export default function Navbar(props) {
                   className="bg-blueGray-700 text-white active:bg-blueGray-600 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
                   type="button"
                 >
-                  <i className="fas fa-arrow-alt-circle-down"></i> Formulaire d'inscription
+                  <i className="fas fa-arrow-alt-circle-down"></i> Bulletin de souscription
                 </button>
                 </a>
                   
@@ -117,7 +117,7 @@ export default function Navbar(props) {
           <br className="my-6 border-blueGray-300" />
           <br className="my-6 border-blueGray-300" />
           <div className="text-xl text-center font-bold" style={{color : '#14532d'}}>
-            <p><em>“Contre la pauvreté et les violences basées sur le genre, pour la parité et        l’automatisation, les femmes rurales veulent relever le défi.”</em></p>
+            <p><em>“Contre la pauvreté et les violences basées sur le genre, pour la parité et l’autonomisation, les femmes rurales veulent relever le défi.”</em></p>
           </div>
         
         </div>

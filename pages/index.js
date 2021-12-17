@@ -580,7 +580,7 @@ export default function Index() {
                   className="github-star sm:ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg"
                 >
                   <i className="fas fa-arrow-alt-circle-down text-lg mr-1"></i>
-                  <span>Formulaire d'inscription
+                  <span>Bulletin de souscription
                   </span>
                 </a>
               </div>
