@@ -14,6 +14,7 @@ export default function Navbar(props) {
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <Link href="/">
               <a
+                style={{color : '#14532d'}}
                 className="text-blueGray-700 text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase"
                 href="#pablo"
               >
@@ -85,9 +86,8 @@ export default function Navbar(props) {
 
               <li className="flex items-center">
                 
-                <a href="https://download1493.mediafire.com/sy2o22xjxcpg/y3gryvei5o5n6wp/Formulaires.zip
-                ">
-                  <button
+                <a href="https://download1493.mediafire.com/sy2o22xjxcpg/y3gryvei5o5n6wp/Formulaires.zip">
+                  <button style={{backgroundColor : '#14532d'}}
                   className="bg-blueGray-700 text-white active:bg-blueGray-600 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
                   type="button"
                 >
@@ -100,7 +100,7 @@ export default function Navbar(props) {
               <li className="flex items-center">
                 
                 <a href="#">
-                  <button
+                  <button style={{backgroundColor : '#14532d'}}
                   className="bg-blueGray-700 text-white active:bg-blueGray-600 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
                   type="button"
                 >
@@ -112,16 +112,18 @@ export default function Navbar(props) {
 
             </ul>
           </div>
-          <div className="text-center text-xl font-bold text-blueGray">
-            <p>“Contre la pauvreté et les violences basées sur le genre, pour le parité et        l’automatisation,
-            les femmes rurales veulent relever le défi.”</p>
+          <br className="my-6 border-blueGray-300" />
+          <br className="my-6 border-blueGray-300" />
+          <br className="my-6 border-blueGray-300" />
+          <br className="my-6 border-blueGray-300" />
+          <div className="text-xl text-center font-bold" style={{color : '#14532d'}}>
+            <p><em>“Contre la pauvreté et les violences basées sur le genre, pour la parité et        l’automatisation, les femmes rurales veulent relever le défi.”</em></p>
           </div>
-        <br className="my-6 border-blueGray-300" />
-        <br className="my-6 border-blueGray-300" />
+        
         </div>
       </nav>
       
-        <hr className="my-6 border-blueGray-300" />
+      <hr className="my-6 border-blueGray-300" />
         <br className="my-6 border-blueGray-300" />
         <br className="my-6 border-blueGray-300" />
         <br className="my-6 border-blueGray-300" />

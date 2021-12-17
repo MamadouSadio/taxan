@@ -252,7 +252,7 @@ export default function Index() {
                         Foncier <br/>
                         <em>
                           <small>
-                            La délimitation, l’immatriculation et les attributions des lots; des concessions, des ménages,
+                            La délimitation, l’immatriculation et les attributions des lots, des concessions, des ménages,
                             des aménagements, des exploitations familiales
                           </small>
                         </em>
@@ -557,16 +557,18 @@ export default function Index() {
 
               Caractérisées par  leur dynamisme, leur rôle  de levier du développement, mais surtout par la faiblesse de leurs moyens, ces OCB ne pourraient  accéder au portail Taxan Info qu’avec des dispositions très particulières, dont la <strong>sponsorisation</strong>.<br/>
 
-              Ainsi, nous invitons vivement les institutions étatiques et les partenaires techniques et financiers à accompagner la mise en service de la plateforme Taxan info, pour aider les OCB  à se transformer afin d’atteindre leurs objectifs en matière de développement.<br/>
+              Ainsi, nous invitons vivement les institutions étatiques et les partenaires techniques et financiers à accompagner la mise en service de la plateforme Taxan info, pour aider les OCB à mieux s'armer pour atteindre leurs objectifs en matière de développement.<br/>
 
-              Bienvenue et nous vous souhaitons une bonne ceuillette d'information sur notre portail
+              Bienvenue et nous vous souhaitons une bonne ceuillette d'information sur notre portail.
               </p>
               <div className="sm:block flex flex-col mt-10">
                 <Link href="./auth/login">
                  <a 
                   target="_blank"
+                  style={{backgroundColor : '#14532d'}}
                   className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-2 bg-blueGray-400 active:bg-blueGray-500 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                 >
+                <i className="fas fa-sign-in-alt text-lg mr-1"></i>
                   Accéder à Taxan Info
                   </a>
                 </Link>
@@ -574,6 +576,7 @@ export default function Index() {
                   href="https://download1493.mediafire.com/sy2o22xjxcpg/y3gryvei5o5n6wp/Formulaires.zip
                   "
                   target="_blank"
+                  style={{backgroundColor : '#14532d'}}
                   className="github-star sm:ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg"
                 >
                   <i className="fas fa-arrow-alt-circle-down text-lg mr-1"></i>
