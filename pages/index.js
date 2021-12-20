@@ -393,10 +393,10 @@ export default function Index() {
                         src="/img/taxan/25 novembre.jpg"
                       />
                       <p className="text-lg text-white mt-4 font-semibold">
-                        25 Novembre <br/>
+                        Violences faites aux femmes <br/>
                         <em>
                           <small>
-                            Violences basées sur le genre.
+                            
                           </small>
                         </em>
                       </p>

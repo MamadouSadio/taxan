@@ -117,7 +117,7 @@ export default function Navbar(props) {
           <br className="my-6 border-blueGray-300" />
           <br className="my-6 border-blueGray-300" />
           <div className="text-xl text-center font-bold" style={{color : '#14532d'}}>
-            <p><em>“Contre la pauvreté et les violences basées sur le genre, pour la parité et l’autonomisation, les femmes rurales veulent relever le défi.”</em></p>
+            <p><em>“Contre la pauvreté et les violences conjugales, pour la parité et l’autonomisation, les organisations féminines veulent relever le défi.”</em></p>
           </div>
         
         </div>
